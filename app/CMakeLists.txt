@@ -11,4 +11,3 @@ add_executable(app main.cpp)
 
 target_link_libraries(app PUBLIC lib)
 
-target_include_directories(app PUBLIC "${PROJECT_BINARY_DIR}" "${PROJECT_SOURCE_DIR}/extern/lib")
